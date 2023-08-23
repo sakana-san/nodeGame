@@ -13,6 +13,6 @@ const promptInput =async (text: string) => {
     const name = await promptInput('名前を入力してください')
     console.log(name)
     const age = await promptInput('年齢を入力してください')
-    console.log(age)
+    console.log('age', age)
     process.exit()
 })()
