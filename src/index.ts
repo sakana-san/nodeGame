@@ -9,5 +9,5 @@ const promptInput =async (text: string) => {
     return input.trim()
 }
 
-; (async () => {
+;(async () => {
 })()
